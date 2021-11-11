@@ -15,6 +15,7 @@
 		5D82CDA4273AD20400E5CD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D82CDA2273AD20400E5CD00 /* LaunchScreen.storyboard */; };
 		5D82CDAF273AD20400E5CD00 /* couponTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D82CDAE273AD20400E5CD00 /* couponTests.swift */; };
 		5D82CDBA273AD20400E5CD00 /* couponUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D82CDB9273AD20400E5CD00 /* couponUITests.swift */; };
+		5D8D2692273D5CCE00990FD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D2691273D5CCE00990FD2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5D82CDB5273AD20400E5CD00 /* couponUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = couponUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D82CDB9273AD20400E5CD00 /* couponUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = couponUITests.swift; sourceTree = "<group>"; };
 		5D82CDBB273AD20400E5CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8D2691273D5CCE00990FD2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5D82CD8B273AD20400E5CD00 = {
 			isa = PBXGroup;
 			children = (
+				5D8D2691273D5CCE00990FD2 /* .gitignore */,
 				5D82CD96273AD20400E5CD00 /* coupon */,
 				5D82CDAD273AD20400E5CD00 /* couponTests */,
 				5D82CDB8273AD20400E5CD00 /* couponUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8D2692273D5CCE00990FD2 /* .gitignore in Resources */,
 				5D82CDA4273AD20400E5CD00 /* LaunchScreen.storyboard in Resources */,
 				5D82CDA1273AD20400E5CD00 /* Assets.xcassets in Resources */,
 				5D82CD9F273AD20400E5CD00 /* Main.storyboard in Resources */,
