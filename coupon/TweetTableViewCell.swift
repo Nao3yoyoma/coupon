@@ -29,10 +29,10 @@ class TweetTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func fill(tweet: TwitterCoupon) {
+    func fill(tweet: TwitterCoupon?) {
         // TODO tweetから値を取り出して、UIにセットする
         //nameLabel.text = tweet.user.name
-        textContentLabel.text = tweet.text
+        textContentLabel.text = tweet?.text
         // screenNameには "@" が含まれていないので、頭に "@" を入れてあげる必要がある
         //screenNameLabel.text = "@" + tweet.user.screenName
     }

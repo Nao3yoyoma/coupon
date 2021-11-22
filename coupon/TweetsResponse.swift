@@ -9,10 +9,7 @@ import Foundation
 
 struct TweetsResponse{
 
-    // TweetModel.swiftを参照
-    // APIの結果によって存在するかが異なるため、ない場合を想定し、「?(Optional型)」をつけます。
-    // こうすることで、存在しない場合はnilを返却してくれるようになります。
-    var data: [TwitterCoupon]?
+    var data: [TwitterCoupon]
 
     init?(json: Any) {
         guard let dictionary = json as? [String: Any] else { return nil }

@@ -13,7 +13,7 @@ struct TwitterCoupon {
     let authorId: String
     
     // Tweet時刻
-    let createdAt: Date
+    let createdAt: String
     
     // Tweetのid
     let id: String
@@ -25,7 +25,7 @@ struct TwitterCoupon {
         guard let dictionary = json as? [String: Any] else { return nil }
         
         guard let authorId = dictionary["author_id"] as? String else { return nil }
-        guard let createdAt = dictionary["created_at"] as? Date else { return nil }
+        guard let createdAt = dictionary["created_at"] as? String else { return nil }
         guard let id = dictionary["id"] as? String else { return nil }
         guard let text = dictionary["text"] as? String else { return nil }
         

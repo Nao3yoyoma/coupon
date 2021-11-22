@@ -114,13 +114,13 @@
 		5D82CD96273AD20400E5CD00 /* coupon */ = {
 			isa = PBXGroup;
 			children = (
-				5D6EC2B62748D986002DB3BE /* TwitterCommunicator.swift */,
 				5D82CD97273AD20400E5CD00 /* AppDelegate.swift */,
 				5D82CD99273AD20400E5CD00 /* SceneDelegate.swift */,
+				5D74AC2627469B1A00D95BF1 /* TimelineViewController.swift */,
+				5D6EC2B62748D986002DB3BE /* TwitterCommunicator.swift */,
 				5D74AC24274699E100D95BF1 /* TwitterCoupon.swift */,
 				5D5817E5274A19CC009A691A /* TwitterCouponParser.swift */,
 				5D5817E7274A3E88009A691A /* TweetsResponse.swift */,
-				5D74AC2627469B1A00D95BF1 /* TimelineViewController.swift */,
 				5D74AC222746999800D95BF1 /* User.swift */,
 				5D82CD9D273AD20400E5CD00 /* Main.storyboard */,
 				5D74AC282746A46800D95BF1 /* TweetTableViewCell.swift */,
