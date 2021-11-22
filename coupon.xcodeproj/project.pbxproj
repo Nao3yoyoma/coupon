@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D148878274C11BC007A7DA5 /* PrivateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D148877274C11BC007A7DA5 /* PrivateData.swift */; };
 		5D5817E6274A19CC009A691A /* TwitterCouponParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5817E5274A19CC009A691A /* TwitterCouponParser.swift */; };
 		5D5817E8274A3E88009A691A /* TweetsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5817E7274A3E88009A691A /* TweetsResponse.swift */; };
 		5D6EC2B72748D986002DB3BE /* TwitterCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6EC2B62748D986002DB3BE /* TwitterCommunicator.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D148877274C11BC007A7DA5 /* PrivateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateData.swift; sourceTree = SOURCE_ROOT; };
 		5D5817E5274A19CC009A691A /* TwitterCouponParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCouponParser.swift; sourceTree = "<group>"; };
 		5D5817E7274A3E88009A691A /* TweetsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsResponse.swift; sourceTree = "<group>"; };
 		5D6EC2B62748D986002DB3BE /* TwitterCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCommunicator.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				5D82CD99273AD20400E5CD00 /* SceneDelegate.swift */,
 				5D74AC2627469B1A00D95BF1 /* TimelineViewController.swift */,
 				5D6EC2B62748D986002DB3BE /* TwitterCommunicator.swift */,
+				5D148877274C11BC007A7DA5 /* PrivateData.swift */,
 				5D74AC24274699E100D95BF1 /* TwitterCoupon.swift */,
 				5D5817E5274A19CC009A691A /* TwitterCouponParser.swift */,
 				5D5817E7274A3E88009A691A /* TweetsResponse.swift */,
@@ -283,6 +286,7 @@
 				5D5817E6274A19CC009A691A /* TwitterCouponParser.swift in Sources */,
 				5D74AC232746999800D95BF1 /* User.swift in Sources */,
 				5D74AC25274699E100D95BF1 /* TwitterCoupon.swift in Sources */,
+				5D148878274C11BC007A7DA5 /* PrivateData.swift in Sources */,
 				5D5817E8274A3E88009A691A /* TweetsResponse.swift in Sources */,
 				5D6EC2B72748D986002DB3BE /* TwitterCommunicator.swift in Sources */,
 				5D82CD98273AD20400E5CD00 /* AppDelegate.swift in Sources */,
