@@ -21,6 +21,14 @@ struct User {
     // プロフィール画像URL
     let profileImageURL: String
 
+    /// デフォルトユーザの定義
+    init() {
+        self.id = "test"
+        self.screenName = "test"
+        self.name = "test"
+        self.profileImageURL = "test"
+    }
+
     init?(json: Any) {
         guard let dictionary = json as? [String: Any] else { return nil }
 

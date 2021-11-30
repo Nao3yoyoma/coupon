@@ -30,10 +30,11 @@ class TweetTableViewCell: UITableViewCell {
     }
 
     /// tweetとユーザ情報から値を取り出して、UIにセットする
-    func fill(tweet: TwitterCoupon?, user: User) {
+    func fill(tweet: TwitterCoupon?) {
         textContentLabel.text = tweet?.text
-        nameLabel.text = user.name
+        nameLabel.text = tweet?.user.name
         // screenNameには "@" が含まれていないので、頭に "@" を入れてあげる必要がある
-        screenNameLabel.text = "@" + user.screenName
+        guard let screenName = tweet?.user.screenName else { return }
+        screenNameLabel.text = "@" + screenName
     }
 }
