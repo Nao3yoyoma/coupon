@@ -31,6 +31,19 @@ class TweetTableViewCell: UITableViewCell {
 
     /// tweetとユーザ情報から値を取り出して、UIにセットする
     func fill(tweet: TwitterCoupon?) {
+        guard let url = tweet?.user.profileImageURL else { return }
+        let downloadTask = URLSession.shared.dataTask(with: URL(string: url)!) { [weak self] data, response, error in
+            if let error = error {
+                print(error)
+                return
+            }
+
+            DispatchQueue.main.async {
+                self?.iconImageView.image = UIImage(data: data!)
+            }
+        }
+        downloadTask.resume()
+
         textContentLabel.text = tweet?.text
         nameLabel.text = tweet?.user.name
         // screenNameには "@" が含まれていないので、頭に "@" を入れてあげる必要がある

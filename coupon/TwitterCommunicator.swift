@@ -11,6 +11,7 @@ import Social
 class TwitterCommunicator {
     let tweetFields : String = "tweet.fields=author_id,id,text,created_at"
     let maxResults : String = "max_results=100"
+    let expansions : String = "expansions=author_id"
     let userFields : String = "user.fields=profile_image_url"
 
     /// TwitterAPIから同期式でクーポン情報(json)を取得する
@@ -32,7 +33,7 @@ class TwitterCommunicator {
         
         // Httpリクエストの生成
         // TODO URLコンポーネントを使用した形にしたい https://qiita.com/shungo_m/items/64564fd822a7558ac7b1
-        var request = URLRequest(url: URL(string: "https://api.twitter.com/2/tweets/search/recent?\(query)&\(tweetFields)&\(maxResults)&\(userFields)")!)
+        var request = URLRequest(url: URL(string: "https://api.twitter.com/2/tweets/search/recent?\(query)&\(tweetFields)&\(maxResults)&\(expansions)&\(userFields)")!)
         request.addValue("Bearer \(coupon.PrivateData.BEARER)", forHTTPHeaderField: "Authorization")
         request.httpMethod = "GET"
         
